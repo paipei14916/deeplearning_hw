@@ -1,6 +1,11 @@
 # Deep Learning Assignment II
 
 ## LeNet5 
+>- Original LeNet5: lenet5_sigmoid.ipynb
+>- Adaptive Activation Function: lenet5_sigmoidx.ipynb
+>- Kernel Size=3: lenet5_sigmoidx_conv3.ipynb
+>- Increase One Convolution Layer: lenet5_sigmoidx_modify.ipynb
+
 ### Data Preprocessing
 <img width="1028" alt="截圖 2023-04-17 下午12 06 02" src="https://user-images.githubusercontent.com/101318155/232375543-7d611f72-1cfe-4d10-b16e-66344e789dfe.png">
 
@@ -23,6 +28,7 @@ The fully connected layers of the LeNet5 model take the high-level features extr
 The LeNet-5 Architecture (LeCun et al., 1998)
 
 ## Computational Graph
+> imgclass_bp.ipynb
 
 ## Installation
 ```python
@@ -30,3 +36,16 @@ The LeNet-5 Architecture (LeCun et al., 1998)
 !pip install tqdm
 !pip install multiprocess
 ```
+
+## Reference
+- LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11), 2278-2324.
+
+- OpenAI. (2020). GPT: Language Models are Unsupervised Multitask Learners. https://github.com/openai/gpt-2/blob/master/model_card.md
+
+- https://github.com/toxtli/lenet-5-mnist-from-scratch-numpy 
+
+- https://github.com/gy910210/neural-network-from-scratch 
+
+- https://github.com/harrypnh/lenet5-from-scratch
+
+
