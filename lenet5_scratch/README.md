@@ -1,11 +1,26 @@
 # Deep Learning Assignment II
 
-
 ## LeNet5 
+### Data Preprocessing
+<img width="1028" alt="截圖 2023-04-17 下午12 06 02" src="https://user-images.githubusercontent.com/101318155/232375543-7d611f72-1cfe-4d10-b16e-66344e789dfe.png">
 
-<img width="868" alt="image" src="https://user-images.githubusercontent.com/101318155/232371583-34888423-9ca2-4ded-b8d1-b36f9bdcb98b.png">
+### Model Architecture
+
+#### Input Layer
+The LeNet5 model is typically applied to grayscale images, but it can also be adapted for use with RGB color images. Since RGB images have three color channels (red, green, and blue), the input layer of the model would be modified to have three layers instead of one. Each layer would correspond to one of the color channels, and the filters in the convolutional layers would be updated accordingly to handle the additional input dimensions. By incorporating color information into the model, the accuracy of image classification tasks can be improved.
+
+#### Convolutional Layer
+The convolutional layer applies a set of learnable filters (also known as convolutional kernels) to the input image. The filters are designed to extract features from the input image by convolving over the image and capturing spatial information.
+
+#### Pooling Layer
+It is typically used to downsample the feature maps and reduce the spatial dimensions of the input image. In LeNet5, max pooling is used to capture the most salient features of the input image, and this process helps to improve the model's invariance to small image translations.
+
+#### Fully Connected Layers
+The fully connected layers of the LeNet5 model take the high-level features extracted from the convolutional and pooling layers and use them to classify the input image into one of several predefined categories.
 
 
+![image](https://user-images.githubusercontent.com/101318155/232376313-d2d8b991-f794-4cb8-9022-07622dd843fb.png)
+The LeNet-5 Architecture (LeCun et al., 1998)
 
 ## Computational Graph
 
