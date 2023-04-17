@@ -28,4 +28,5 @@ The LeNet-5 Architecture (LeCun et al., 1998)
 ```python
 !pip install opencv-python
 !pip install tqdm
+!pip install multiprocess
 ```
